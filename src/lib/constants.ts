@@ -39,9 +39,9 @@ export const SERVICES: Service[] = [
   {
     id: "construction",
     title: "Construction & Real Estate",
-    shortDescription: "End-to-end construction management and real estate solutions.",
+    shortDescription: "Practical construction and real estate solutions tailored to your project.",
     description:
-      "From concept to completion, we deliver commercial and residential construction projects that meet the highest standards of quality and safety in Nigeria.",
+      "We support residential and commercial projects with a practical approach to planning, coordination, and execution, with a focus on quality, safety, and lasting results.",
     href: "/services/construction-real-estate",
     icon: "Building2",
     features: [
@@ -55,9 +55,9 @@ export const SERVICES: Service[] = [
   {
     id: "interior-design",
     title: "Interior Design & Installation",
-    shortDescription: "Bespoke interior design solutions for modern spaces.",
+    shortDescription: "Thoughtful interior design and installation for modern spaces.",
     description:
-      "We design and execute interior environments that blend aesthetics with functionality, specializing in corporate workspaces and luxury residential fit-outs.",
+      "We create functional and visually refined interiors by combining thoughtful design, quality materials, and professional installation for residential and commercial spaces.",
     href: "/services/interior-design-installation",
     icon: "Palette",
     features: [
@@ -71,15 +71,15 @@ export const SERVICES: Service[] = [
   {
     id: "procurement",
     title: "Procurement",
-    shortDescription: "Strategic sourcing and supply chain management.",
+    shortDescription: "Reliable sourcing and procurement solutions for businesses and projects.",
     description:
-      "We provide reliable procurement services—sourcing quality materials, equipment, and goods at competitive prices with full supply chain oversight.",
+      "We help businesses and project teams source quality materials, equipment, and goods while focusing on competitive pricing, reliable suppliers, and efficient delivery.",
     href: "/services/procurement",
     icon: "ShoppingCart",
     features: [
       "Local & International Sourcing",
       "Vendor Management",
-      "Supply Chain Optimization",
+      "Supply Chain Support",
       "Materials Management",
       "Quality Assurance",
     ],
@@ -87,9 +87,9 @@ export const SERVICES: Service[] = [
   {
     id: "logistics",
     title: "Logistics",
-    shortDescription: "Efficient freight and cargo solutions across Nigeria.",
+    shortDescription: "Reliable logistics solutions for the movement of goods and materials.",
     description:
-      "Our logistics division offers dependable freight forwarding, warehousing, and last-mile delivery services throughout Nigeria and beyond.",
+      "We coordinate logistics and transportation solutions to help businesses move goods and materials efficiently, with a focus on reliability, communication, and timely delivery.",
     href: "/services/logistics",
     icon: "Truck",
     features: [
@@ -97,15 +97,15 @@ export const SERVICES: Service[] = [
       "Warehousing & Storage",
       "Last-Mile Delivery",
       "Customs Clearance",
-      "Fleet Management",
+      "Transportation Coordination",
     ],
   },
   {
     id: "technology",
     title: "Technology",
-    shortDescription: "Innovative technology solutions for modern businesses.",
+    shortDescription: "Practical technology solutions that help businesses work smarter.",
     description:
-      "We help organisations adopt and integrate technology solutions that improve efficiency, automate processes, and unlock digital growth opportunities.",
+      "We help organisations identify and implement technology solutions that improve efficiency, streamline processes, and support sustainable digital growth.",
     href: "/services/technology",
     icon: "Monitor",
     features: [
@@ -164,8 +164,8 @@ export const FOOTER_GROUPS: FooterGroup[] = [
 // ─── Homepage ──────────────────────────────────────────────────────────────────
 
 export const STATISTICS: Statistic[] = [
-  { label: "Projects Delivered", value: "10+" },
-  { label: "Industries Served", value: "6" },
+  { label: "Projects Delivered", value: "5" },
+  { label: "Industries Served", value: "2" },
   { label: "Years of Experience", value: "1+" },
 ];
 
@@ -173,7 +173,7 @@ export const WHY_CHOOSE_US: WhyChooseUsItem[] = [
   {
     id: "expertise",
     title: "Professional Expertise",
-    description: "Our multidisciplinary team brings decades of combined experience across construction, technology, and supply chain management.",
+    description: "Our multidisciplinary team combines practical knowledge across construction, technology, procurement, and supply chain management to deliver effective solutions.",
     icon: "Briefcase",
   },
   {
@@ -185,7 +185,7 @@ export const WHY_CHOOSE_US: WhyChooseUsItem[] = [
   {
     id: "quality",
     title: "Quality Assurance",
-    description: "Strict adherence to international standards and best practices guarantees the durability and excellence of our work.",
+    description: "We maintain high standards throughout every project, with careful attention to quality, durability, and professional execution.",
     icon: "ShieldCheck",
   },
   {
@@ -207,92 +207,125 @@ export const INDUSTRIES: Industry[] = [
 
 export const FEATURED_PROJECTS: Project[] = [
   {
-    slug: "eco-industrial-park",
-    title: "Eco-Industrial Park Phase I",
-    metaTitle: "Eco-Industrial Park Phase I — Apex C&P Ltd",
-    metaDescription: "Development of a sustainable industrial park featuring advanced civil engineering and eco-friendly infrastructure.",
-    description: "Development of a sustainable industrial park featuring advanced civil engineering and eco-friendly infrastructure.",
-    category: "construction",
+    slug: "four-unit-apartment-finishing",
+    title: "Four-Unit Apartment Finishing",
+    metaTitle: "Four-Unit Apartment Finishing — Apex C&P Ltd",
+    metaDescription:
+      "Interior and exterior finishing for a four-unit apartment in Benin City, delivered with a focus on modern aesthetics, quality, and cost efficiency.",
+    description:
+      "Interior and exterior finishing for a four-unit apartment, combining modern aesthetics, quality materials, and practical project management to deliver a comfortable and well-balanced result.",
+    category: "interior-design",
     status: "completed",
-    location: "Lagos, Nigeria",
-    client: "Lagos State Government & Private Investors",
-    year: 2024,
-    coverImage: "/images/hero-construction.jpg",
-    heroImageAlt: "Wide view of the Eco-Industrial Park construction site",
-    challenge: "The client required a 500-acre industrial complex that minimized environmental impact while providing robust, high-capacity infrastructure for manufacturing tenants. The site was prone to waterlogging, requiring extensive geotechnical engineering before structural work could begin.",
-    solution: "Apex C&P deployed a multidisciplinary team to execute a comprehensive site remediation plan. We utilized permeable paving, advanced drainage systems, and sustainable materials. Our logistics division ensured all specialized heavy machinery arrived on schedule despite regional supply chain disruptions.",
+    location: "Benin City, Edo State, Nigeria",
+    client: "Private Client",
+    year: 2025,
+    coverImage: "/images/hero-construction1.jpg",
+    heroImageAlt:
+      "Four-unit apartment project completed with a clean and modern finish",
+    challenge:
+      "The client engaged Apex C&P Ltd to design and select tiles for a new four-unit apartment, with a focus on simplicity, comfort, and modern aesthetics. The project faced challenges including high material costs, the distance between the project site and supplier warehouse, and weather-related delays during the rainy season. Despite these constraints, the project was carefully managed to maintain quality and meet the client's expectations.",
+    solution:
+      "To achieve the client's vision while maintaining cost efficiency, Apex C&P Ltd partnered with Rechem Paint & Interior to deliver high-quality finishing solutions. Premium paint systems were selected for their durability, colour retention, and resistance to dust and stains. We also implemented effective logistics planning and erosion control measures to address the site's environmental conditions and minimise disruption during the rainy season. Through strategic planning and efficient resource management, the project was delivered to a high standard while remaining within the client's comfortable budget.",
     results: [
-      "Completed 2 months ahead of schedule",
-      "Achieved a 30% reduction in carbon footprint during construction",
-      "Zero lost-time injuries over 1.2 million man-hours",
+      "Successfully completed the project within one month, one week ahead of the client's housewarming event",
+      "Delivered a clean, modern, and well-balanced interior and exterior finish",
+      "Implemented effective erosion control measures to support the property's long-term durability",
+      "Achieved high-quality finishing while maintaining cost efficiency",
+      "Recorded zero Lost Time Injuries (LTI) throughout the project with an average workforce of 8 personnel on site",
     ],
     gallery: [
       "/images/project-commercial.jpg",
       "/images/project-construction-site.jpg",
       "/images/engineers-reviewing.jpg",
     ],
-    servicesUsed: ["Civil Engineering", "Project Management", "Logistics", "Procurement"],
-    relatedServices: ["construction-real-estate", "logistics"],
+    servicesUsed: [
+      "Interior Design & Installation",
+      "Procurement",
+      "Logistics",
+      "Project Management",
+    ],
+    relatedServices: ["interior-design-installation", "procurement", "logistics"],
     featured: true,
   },
   {
-    slug: "corporate-hq-interior",
-    title: "Corporate HQ Interior Fit-Out",
-    metaTitle: "Corporate HQ Interior Fit-Out — Apex C&P Ltd",
-    metaDescription: "Premium interior design and execution for a leading financial institution's new headquarters.",
-    description: "Premium interior design and execution for a leading financial institution's new headquarters.",
-    category: "interior",
+    slug: "medlung-website-development",
+    title: "MedLung Website Development",
+    metaTitle: "MedLung Website Development — Apex C&P Ltd",
+    metaDescription:
+      "Design and development of a modern digital platform for MedLung, an engineering company focused on respiratory devices and healthcare innovation.",
+    description:
+      "Design and development of a modern, responsive website for MedLung, showcasing its respiratory device engineering and healthcare technology solutions.",
+    category: "technology",
     status: "completed",
-    location: "Abuja, Nigeria",
-    client: "Zenith Financial Group",
-    year: 2023,
-    coverImage: "/images/interior-office.jpg",
-    heroImageAlt: "Modern, well-lit corporate office interior",
-    challenge: "Zenith Financial Group was relocating their 500-person headquarters and needed a workspace that fostered collaboration, reflected their premium brand identity, and integrated seamless smart-office technology. The timeline was strictly capped at 4 months to prevent operational downtime.",
-    solution: "We adopted a turnkey approach, handling everything from spatial planning and 3D visualization to bespoke furniture procurement and installation. We integrated automated climate and lighting systems to enhance energy efficiency and employee comfort.",
+    location: "Nigeria",
+    client: "MedLung",
+    year: 2026,
+    coverImage: "/images/medlung-website.jpg",
+    heroImageAlt:
+      "Modern MedLung website showcasing respiratory device engineering",
+    challenge:
+      "MedLung needed a professional digital presence that could clearly communicate its work in respiratory device engineering while presenting complex healthcare technology in a simple and accessible way. The website needed to establish credibility, communicate the company's vision and capabilities, and provide visitors with a clear understanding of its products and work.",
+    solution:
+      "Apex C&P Ltd designed and developed a modern, responsive website tailored to MedLung's brand and industry. The website was structured to clearly present the company's mission, respiratory technology focus, and key information while maintaining a clean and professional visual experience. Responsive layouts and intuitive navigation were implemented to ensure a consistent experience across desktop, tablet, and mobile devices.",
     results: [
-      "Delivered exactly on the 4-month deadline",
-      "Sourced 85% of custom furniture internationally with zero delays",
-      "Increased client employee satisfaction scores regarding workspace by 42%",
+      "Successfully designed and developed a professional digital presence for MedLung",
+      "Created a responsive website optimised for desktop, tablet, and mobile experiences",
+      "Presented MedLung's respiratory device engineering work through a clear and accessible website structure",
+      "Established a modern digital platform that supports the company's brand and communication goals",
     ],
     gallery: [
-      "/images/interior-lobby.jpg",
-      "/images/interior-workspace.jpg",
-      "/images/interior-executive.jpg",
-      "/images/interior-detail.jpg",
+      "/images/medlung-homepage.jpg",
+      "/images/medlung-about.jpg",
+      "/images/medlung-products.jpg",
     ],
-    servicesUsed: ["Spatial Planning", "Custom Furnishing", "Smart Tech Integration"],
-    relatedServices: ["interior-design-installation", "technology"],
+    servicesUsed: [
+      "Web Design",
+      "Web Development",
+      "Responsive Design",
+      "Digital Solutions",
+    ],
+    relatedServices: ["technology"],
     featured: true,
   },
   {
-    slug: "national-logistics-network",
-    title: "National Logistics Network",
-    metaTitle: "National Logistics Network — Apex C&P Ltd",
-    metaDescription: "Comprehensive procurement and supply chain optimization across multiple regional distribution centers.",
-    description: "Comprehensive procurement and supply chain optimization across multiple regional distribution centers.",
+    slug: "project-materials-procurement-logistics",
+    title: "Project Materials Procurement & Logistics",
+    metaTitle: "Project Materials Procurement & Logistics — Apex C&P Ltd",
+    metaDescription:
+      "Procurement and logistics support for the sourcing, coordination, and timely delivery of project materials.",
+    description:
+      "Procurement and logistics support focused on sourcing quality materials, coordinating suppliers, and ensuring timely delivery to the project site.",
     category: "logistics",
-    status: "ongoing",
-    location: "Nationwide",
-    client: "Federal Ministry of Commerce",
+    status: "completed",
+    location: "Benin City, Edo State, Nigeria",
+    client: "Private Client",
     year: 2025,
     coverImage: "/images/logistics-fleet.jpg",
-    heroImageAlt: "Large scale warehouse and distribution center",
-    challenge: "The existing national distribution framework suffered from severe bottlenecks, lack of real-time tracking, and inefficient warehouse management, leading to significant delays in moving essential goods across regions.",
-    solution: "Apex implemented a completely integrated logistics and technology solution. We constructed two new centralized distribution hubs, procured a modern fleet of transport vehicles, and deployed a custom enterprise resource planning (ERP) system for real-time freight tracking.",
+    heroImageAlt:
+      "Project materials being prepared for transportation and delivery",
+    challenge:
+      "The project required the timely sourcing and delivery of materials while managing supplier availability, material costs, and the distance between suppliers and the project site. The rainy season also presented additional transportation and site-access challenges that needed to be considered throughout the project.",
+    solution:
+      "Apex C&P Ltd coordinated the procurement process by identifying suitable suppliers, comparing available options, and arranging the transportation of required materials to the project site. Careful scheduling and communication with suppliers helped minimise delays, while logistics planning was adapted to account for weather and site conditions.",
     results: [
-      "Reduced average transit times by 25%",
-      "Achieved 99.8% inventory accuracy across all hubs",
-      "Established a secure, scalable supply chain framework for future expansion",
+      "Successfully coordinated the sourcing and delivery of required project materials",
+      "Maintained material quality while considering the client's budget",
+      "Reduced potential delays through proactive supplier and logistics coordination",
+      "Supported uninterrupted project execution despite challenging weather conditions",
     ],
     gallery: [
       "/images/logistics-warehouse.jpg",
       "/images/logistics-shipping.jpg",
-      "/images/technology-team.jpg",
+      "/images/project-construction-site.jpg",
     ],
-    servicesUsed: ["Warehousing", "Freight Transportation", "IT Infrastructure"],
-    relatedServices: ["logistics", "procurement", "technology"],
-    featured: true,
+    servicesUsed: [
+      "Procurement",
+      "Supplier Coordination",
+      "Logistics",
+      "Materials Management",
+    ],
+    relatedServices: ["procurement", "logistics"],
+    featured: false,
   },
 ];
 
@@ -300,9 +333,9 @@ export const FEATURED_PROJECTS: Project[] = [
 
 export const ABOUT_COMPANY_STORY = {
   whoWeAre:
-    "Apex C&P Ltd is a premier Nigerian multidisciplinary organization dedicated to transforming visions into reality. Established in 2015, we have grown from a specialized contractor into a comprehensive solutions provider, serving government agencies, corporations, and investors.",
+    "Apex C&P Ltd is a Nigerian multidisciplinary company delivering solutions across Construction & Real Estate, Interior Design, Procurement, Logistics, and Technology. We combine practical expertise, thoughtful planning, and a client-focused approach to turn ideas into quality results.",
   whatWeDo:
-    "We integrate Construction & Real Estate, Interior Design, Procurement, Logistics, and Technology. This holistic approach allows us to control quality, reduce timelines, and deliver seamless, end-to-end execution on complex, large-scale projects across the region.",
+    "Our integrated approach brings complementary services together to make project execution more efficient and coordinated. We work closely with our clients to understand their objectives, manage resources effectively, and deliver solutions built around quality, functionality, and long-term value.",
 };
 
 export const MISSION_VISION: MissionVisionItem[] = [

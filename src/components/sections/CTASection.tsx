@@ -38,7 +38,7 @@ export function CTASection() {
                 <Link href="/contact">Get In Touch</Link>
               </Button>
               {/* Secondary CTA — transparent white-outline on dark background */}
-              <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto" asChild>
+              <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto !text-white" asChild>
                 <Link href="tel:+2348116064877">Call Us</Link>
               </Button>
             </div>

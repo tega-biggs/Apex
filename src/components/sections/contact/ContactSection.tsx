@@ -15,10 +15,10 @@ export function ContactSection() {
       {/* Background decoration */}
       <div className="absolute inset-0 z-0 opacity-[0.03] mix-blend-multiply pointer-events-none" style={{ backgroundImage: "url('/images/blueprint-texture.jpg')", backgroundSize: "cover" }} />
       <div className="absolute top-0 right-0 w-1/2 h-full bg-surface hidden lg:block rounded-l-3xl border-l border-border/50 z-0" />
-      
+
       <Container className="relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
-          
+
           {/* Left Column: Contact Cards */}
           <div className="lg:col-span-5 flex flex-col gap-6 lg:pr-8">
             <div className="mb-4">
@@ -48,13 +48,13 @@ export function ContactSection() {
                   action={{ label: "Call us", href: "tel:+2348116064877" }}
                 />
               </motion.div>
-              
+
               <motion.div variants={staggerItem} className="h-full">
                 <ContactCard
                   icon={Mail}
                   title="Email"
-                  details={["info@apexcnp.com", "projects@apexcnp.com"]}
-                  action={{ label: "Send an email", href: "mailto:info@apexcnp.com" }}
+                  details={["info@apexcandp.com", "projects@apexcandp.com"]}
+                  action={{ label: "Send an email", href: "mailto:info@apexcandp.com" }}
                 />
               </motion.div>
 
@@ -81,7 +81,7 @@ export function ContactSection() {
               <ContactForm />
             </motion.div>
           </div>
-          
+
         </div>
       </Container>
     </Section>

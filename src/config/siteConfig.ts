@@ -5,12 +5,12 @@ export const siteConfig = {
   tagline: "Building Nigeria's Future",
   description:
     "Apex C&P Ltd is an integrated multidisciplinary company delivering Construction & Real Estate, Interior Design, Procurement, Logistics, and Technology solutions for businesses, institutions, and government organizations.",
-  url: "https://apexcandp.com", 
+  url: "https://apexcandp.com",
   foundedYear: 2015,
   registrationNumber: "RC XXXXXXXX",
   email: {
-    general: "info@apexcnp.com",
-    projects: "projects@apexcnp.com",
+    general: "info@apexcandp.com",
+    projects: "projects@apexcandp.com",
   },
   phone: {
     primary: "+234 811 606 4877",
@@ -23,9 +23,9 @@ export const siteConfig = {
     country: "Nigeria",
   },
   social: {
-    linkedin: "https://linkedin.com/company/apex-c-and-p",
-    twitter: "https://twitter.com/apexcnp",
-    facebook: "https://facebook.com/apexcnp",
+    linkedin: "https://www.linkedin.com/company/apexc-p",
+    twitter: "https://x.com/ApexcandpLTD",
+    facebook: "https://www.facebook.com/profile.php?id=61590993321749",
   },
   navigation: [
     { label: "Home", href: "/" },

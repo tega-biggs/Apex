@@ -35,9 +35,10 @@ export function AboutPreview() {
             <SectionHeading
               subtitle="Who We Are"
               title="Delivering Excellence Across Multiple Disciplines."
-              description="Apex C&P Ltd is a premier Nigerian company dedicated to transforming visions into reality. We integrate construction, interior design, procurement, logistics, and technology to provide seamless, end-to-end solutions for our clients."
+              description="Apex C&P Ltd is a Nigerian multidisciplinary company delivering solutions across construction, interior design, procurement, logistics, and technology. We bring together practical expertise, thoughtful planning, and reliable execution to help our clients turn their ideas into quality results.
+"
             />
-            
+
             <ul className="flex flex-col gap-4 mb-10 -mt-2">
               {strengths.map((strength, index) => (
                 <li key={index} className="flex items-center gap-3">

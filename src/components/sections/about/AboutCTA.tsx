@@ -38,7 +38,7 @@ export function AboutCTA() {
                 <Link href="/contact">Get In Touch</Link>
               </Button>
               {/* Secondary CTA — transparent white-outline on dark background */}
-              <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto" asChild>
+              <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto !text-white" asChild>
                 <Link href="/services">View Services</Link>
               </Button>
             </div>

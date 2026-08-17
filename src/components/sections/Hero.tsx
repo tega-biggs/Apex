@@ -52,7 +52,7 @@ export function Hero() {
             variants={staggerItem}
             className="text-lg md:text-xl text-white/90 font-medium max-w-2xl leading-relaxed"
           >
-            Apex C&P Ltd delivers reliable, comprehensive solutions across Construction, Interior Design, Procurement, Logistics, and Technology for organizations in Nigeria and beyond.
+            Apex C&P Ltd delivers practical solutions across Construction, Interior Design, Procurement, Logistics, and Technology, helping clients turn ideas into quality results.
           </motion.p>
 
           <motion.div
@@ -64,7 +64,7 @@ export function Hero() {
               <Link href="/contact">Get In Touch</Link>
             </Button>
             {/* Secondary CTA — transparent with white outline on dark background */}
-            <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto" asChild>
+            <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto !text-white" asChild>
               <Link href="/services">Our Services</Link>
             </Button>
           </motion.div>
@@ -75,7 +75,7 @@ export function Hero() {
             className="flex items-center gap-2 mt-4 text-white/80 text-sm font-medium"
           >
             <ShieldCheck className="size-4 text-white" />
-            <span>Trusted by Businesses, Institutions & Government Agencies</span>
+            <span>Supporting Businesses, Organizations & Private Clients</span>
           </motion.div>
         </motion.div>
 

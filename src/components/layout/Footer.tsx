@@ -18,8 +18,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-16">
           {/* Column 1: Company Logo & Description */}
           <div className="lg:col-span-4 flex flex-col gap-6">
-            <Logo />
-            <p className="text-white/70 leading-relaxed max-w-sm">
+            <Logo className="!text-white" />
+            <p className="text-white/70 leading-relaxed max-w-sm !text-white">
               {COMPANY.description}
             </p>
           </div>
@@ -76,7 +76,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${COMPANY.name} on ${social.platform}`}
-                  className="text-white/60 hover:text-white transition-colors duration-150 ease-out font-medium text-sm"
+                  className="!text-white hover:!text-white transition-colors duration-150 ease-out font-medium text-sm"
                 >
                   {social.platform}
                 </a>

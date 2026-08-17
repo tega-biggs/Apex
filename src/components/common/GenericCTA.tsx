@@ -53,12 +53,12 @@ export function GenericCTA({
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               {/* Primary CTA — white fill on dark background */}
-              <Button size="lg" variant="dark" className="w-full sm:w-auto" asChild>
+              <Button size="lg" variant="dark" className="w-full sm:w-auto !text-primary" asChild>
                 <Link href={primaryButtonHref}>{primaryButtonText}</Link>
               </Button>
               {secondaryButtonText && secondaryButtonHref && (
                 /* Secondary CTA — transparent white-outline on dark background */
-                <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto" asChild>
+                <Button size="lg" variant="outline-inverse" className="w-full sm:w-auto !text-white" asChild>
                   <Link href={secondaryButtonHref}>{secondaryButtonText}</Link>
                 </Button>
               )}

@@ -16,8 +16,8 @@ export function Logo({ className, onClick }: LogoProps) {
         className
       )}
     >
-      <span className="text-primary">Apex</span>
-      <span>C&P Ltd</span>
+      <span className="text-current">Apex</span>
+      <span className="text-current">C&P Ltd</span>
     </Link>
   );
 }

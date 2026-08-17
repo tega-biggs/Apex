@@ -28,7 +28,7 @@ export function CompanyStory() {
                 Who We Are
               </span>
               <h2 className="text-3xl md:text-4xl font-manrope font-bold text-text-primary mb-4 tracking-tight leading-tight">
-                A Legacy of Excellence in Nigeria.
+                Building with Purpose. Delivering with Precision.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {ABOUT_COMPANY_STORY.whoWeAre}
@@ -40,7 +40,7 @@ export function CompanyStory() {
                 What We Do
               </span>
               <h3 className="text-2xl md:text-3xl font-manrope font-bold text-text-primary mb-4 tracking-tight">
-                Integrated Multidisciplinary Solutions.
+                Practical Solutions. One Trusted Partner.
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {ABOUT_COMPANY_STORY.whatWeDo}
